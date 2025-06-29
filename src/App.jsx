@@ -2,10 +2,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useState } from 'react'
 import viteLogo from '/src/assets/boy5.png'
 import './App.css'
-import Header from './Layout/header'
-import Projects from './Projects';
-import Contact from './Contact';
-import About from './About';
+import Header from './component/Header'
+import Projects from './component/Projects';
+import Contact from './component/Contact';
+import About from './component/About';
 
 function Home() {
   return (
